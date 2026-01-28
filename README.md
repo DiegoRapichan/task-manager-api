@@ -163,7 +163,14 @@ task-manager-api/
 
 ## 🌐 Deploy
 
-Em breve: Deploy no Render.com
+**API em produção:** https://task-manager-api-xxxx.onrender.com
+
+Teste os endpoints:
+
+- GET `/` - Health check
+- POST `/api/auth/register` - Registrar usuário
+- POST `/api/auth/login` - Login
+- GET/POST/PUT/DELETE `/api/tasks` - CRUD de tarefas (requer autenticação)
 
 ## 👨‍💻 Autor
 
