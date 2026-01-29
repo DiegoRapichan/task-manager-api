@@ -163,7 +163,7 @@ task-manager-api/
 
 ## 🌐 Deploy
 
-**API em produção:** https://task-manager-api-xxxx.onrender.com
+**API em produção:** http://task-manager-api-7ygs.onrender.com
 
 Teste os endpoints:
 
