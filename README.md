@@ -1,8 +1,3 @@
-
-### 2️⃣ task-manager-api - README COMPLETO
-
-**Localização:** `task-manager-api/README.md`
-
 # ✅ Task Manager API
 
 API REST completa para gerenciamento de tarefas com autenticação JWT, construída com Node.js, Express e PostgreSQL.
