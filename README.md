@@ -33,6 +33,19 @@
 
 ---
 
+## 🏗️ Decisões Técnicas
+
+**Sequelize ao invés de query builder puro**
+Para um domínio com relacionamentos bem definidos (User → Tasks com CASCADE),
+o ORM reduz boilerplate e garante consistência nas associações. O custo de
+performance em queries complexas não se aplica a este escopo.
+
+**JWT stateless ao invés de sessions**
+Permite escalar horizontalmente sem estado compartilhado entre instâncias —
+padrão para APIs consumidas por múltiplos clientes.
+
+---
+
 ## 🔌 Endpoints
 
 ```
