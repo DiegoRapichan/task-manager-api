@@ -12,7 +12,7 @@
 ---
 
 ## 🛠️ Stack
-
+ 
 `Node.js 18` `Express.js` `PostgreSQL` `Sequelize ORM` `JWT` `Bcrypt` `Nodemon` `Morgan`
 
 ---
